@@ -11,8 +11,4 @@ configure(subprojects.findAll()) {
         testCompile 'org.objenesis:objenesis:2.1'
         testCompile 'org.codehaus.groovy:groovy-all:2.4.0'
     }
-
-    task wrapper(type: Wrapper) {
-        gradleVersion = '2.3'
-    }
 }
